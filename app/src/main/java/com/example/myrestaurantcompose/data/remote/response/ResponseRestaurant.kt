@@ -8,10 +8,10 @@ import com.google.gson.annotations.SerializedName
 data class ResponseRestaurant(
 
 	@field:SerializedName("count")
-	val count: Int?,
+	val count: Int? = null,
 
 	@field:SerializedName("founded")
-	val founded: Int?,
+	val founded: Int? = null,
 
 	@field:SerializedName("restaurants")
 	val restaurants: List<RestaurantsItem>,
@@ -20,7 +20,7 @@ data class ResponseRestaurant(
 	val error: Boolean,
 
 	@field:SerializedName("message")
-	val message: String?
+	val message: String? = null
 ) : Parcelable
 
 @Parcelize

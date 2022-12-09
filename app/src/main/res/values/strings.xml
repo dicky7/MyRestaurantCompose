@@ -2,5 +2,14 @@
     <string name="app_name">My Restaurant Compose</string>
     <string name="placeholder_search">Cari restaurant disekitar mu!</string>
     <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
     <string name="menu_profile">Profile</string>
+    <string name="search_found">Restaurant found %s</string>
+    <string name="near_restaurant">Restaurant Nearby</string>
+    <string name="not_found">Restaurant Not Found</string>
+    <string name="back">Back</string>
+    <string name="description">Description</string>
+    <string name="name">Dicky Widya Angga Kusuma</string>
+    <string name="email">dickyangga73@gmail.com</string>
+
 </resources>

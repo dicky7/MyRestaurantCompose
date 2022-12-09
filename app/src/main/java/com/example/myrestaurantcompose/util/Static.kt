@@ -6,5 +6,4 @@ object Static {
     const val RESTAURANT_DETAIL = "/detail/";
     const val RESTAURANT_SEARCH = "/search?q=";
     const val SMALL_IMAGE_URL = "/images/small/";
-    const val MEDIUM_IMAGE_URL = "/images/medium/";
 }
