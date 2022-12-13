@@ -47,11 +47,12 @@ fun RestaurantContentItem(
                     .clip(RoundedCornerShape(10.dp))
             )
             Text(
-                    text = restaurants.name,
-                    maxLines = 2,
-                    overflow = TextOverflow.Ellipsis,
-                    style = MaterialTheme.typography.subtitle1.copy(fontWeight = FontWeight.ExtraBold)
-                )
+                modifier = Modifier.padding(8.dp),
+                text = restaurants.name,
+                maxLines = 2,
+                overflow = TextOverflow.Ellipsis,
+                style = MaterialTheme.typography.subtitle1.copy(fontWeight = FontWeight.ExtraBold)
+            )
         }
 
     }
