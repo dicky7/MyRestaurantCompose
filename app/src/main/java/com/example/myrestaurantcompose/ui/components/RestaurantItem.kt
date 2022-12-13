@@ -46,33 +46,12 @@ fun RestaurantContentItem(
                     .height(140.dp)
                     .clip(RoundedCornerShape(10.dp))
             )
-            Column(modifier = Modifier.padding(8.dp)) {
-                Text(
+            Text(
                     text = restaurants.name,
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis,
                     style = MaterialTheme.typography.subtitle1.copy(fontWeight = FontWeight.ExtraBold)
                 )
-                Spacer(modifier = Modifier.padding(top = 10.dp))
-                Row{
-                    Row(modifier = Modifier.weight(2f), verticalAlignment = Alignment.CenterVertically) {
-                        Icon(imageVector = Icons.Default.LocationOn, contentDescription = null, tint = Color.Red)
-                        Text(
-                            text = restaurants.city,
-                            style = MaterialTheme.typography.subtitle2.copy(color = Color.DarkGray, fontSize = 12.sp)
-                        )
-                    }
-                    Spacer(modifier = Modifier.padding(vertical = 10.dp))
-                    Row(modifier = Modifier.weight(1f), verticalAlignment = Alignment.CenterVertically){
-                        Icon(imageVector = Icons.Default.Star, contentDescription = null, tint = Color.Yellow)
-                        Text(
-                            text = restaurants.rating.toString(),
-                            style = MaterialTheme.typography.subtitle2.copy(color = Color.DarkGray, fontSize = 12.sp)
-                        )
-
-                    }
-                }
-            }
         }
 
     }
